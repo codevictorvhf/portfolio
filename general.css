@@ -42,7 +42,7 @@ h2.title span {
   transition: 0.2s;
 }
 
-.btn-contact button:hover {
+button:hover {
   box-shadow: 0px 0px 8px #00ff0868;
   transform: scale(1.05);
 }
