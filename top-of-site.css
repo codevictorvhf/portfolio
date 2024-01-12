@@ -2,23 +2,23 @@ section.topo-site {
   padding: 40px 4%;
 }
 
-section.topo-site .flex {
+.topo-site .flex {
   align-items: center;
   justify-content: center;
   gap: 90px;
 }
 
-section.topo-site h1 {
+.topo-site h1 {
   color: #fff;
   font-size: 42px;
   line-height: 40px;
 }
 
-section.topo-site .txt-topo-site h1 span {
+.topo-site .txt-topo-site h1 span {
   color: #00ff08;
 }
 
-section.topo-site .txt-topo-site p {
+.topo-site .txt-topo-site p {
   color: #fff;
   margin: 40px 0;
 }
