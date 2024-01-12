@@ -1,0 +1,31 @@
+section.specialties {
+  padding: 40px 4%;
+}
+
+.specialties .flex {
+  gap: 60px;
+}
+
+.specialties .specialties-box {
+  padding: 40px;
+  margin-top: 45px;
+
+  border-radius: 25px;
+  transition: .2s ease-in-out;
+}
+
+.specialties .specialties-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #ffffff78;
+  cursor: pointer;
+}
+
+.specialties .specialties-box i {
+  font-size: 66px;
+  color: #00ff08;
+}
+
+.specialties .specialties-box h3 {
+  font-size: 26px;
+  margin: 15px 0;
+}
