@@ -1,0 +1,39 @@
+section.about {
+  padding: 80px 4%;
+}
+
+.about .flex {
+  align-items: center;
+  gap: 60px;
+}
+
+.about .txt-about h2 {
+  font-size: 35px;
+  line-height: 35px;
+  margin-bottom: 30px;
+}
+
+.about .txt-about h2 span {
+  color: #00ff08;
+  display: block;
+}
+
+.about .txt-about p {
+  margin: 20px 0;
+  text-align: justify;
+}
+
+.about .txt-about .btn-social button {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+
+  background-color: #00ff08;
+  font-size: 20px;
+  cursor: pointer;
+
+  margin: 0 5px;
+  transition: .2s ease-in-out;
+
+}
