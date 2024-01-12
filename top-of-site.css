@@ -1,29 +1,29 @@
-section.topo-site {
+section.top-of-site {
   padding: 40px 4%;
 }
 
-.topo-site .flex {
+.top-of-site .flex {
   align-items: center;
   justify-content: center;
   gap: 90px;
 }
 
-.topo-site h1 {
+.top-of-site h1 {
   color: #fff;
   font-size: 42px;
   line-height: 40px;
 }
 
-.topo-site .txt-topo-site h1 span {
+.top-of-site .txt-top-of-site h1 span {
   color: #00ff08;
 }
 
-.topo-site .txt-topo-site p {
+.top-of-site .txt-top-of-site p {
   color: #fff;
   margin: 40px 0;
 }
 
-.topo-site .img-topo-site img {
+.top-of-site .img-top-of-site img {
   position: relative;
   animation: flooter 2s ease-in-out infinite alternate;
 }
