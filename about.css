@@ -23,7 +23,7 @@ section.about {
   text-align: justify;
 }
 
-.about .txt-about .btn-social button {
+.btn-social button {
   width: 60px;
   height: 60px;
   border-radius: 50%;
@@ -34,6 +34,5 @@ section.about {
   cursor: pointer;
 
   margin: 0 5px;
-  transition: .2s ease-in-out;
-
+  transition: 0.2s ease-in-out;
 }

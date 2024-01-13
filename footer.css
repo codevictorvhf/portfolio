@@ -1,0 +1,31 @@
+footer {
+  padding: 40px 4%;
+  box-shadow: 0 0 40px 10px #ffffff11;
+}
+
+footer .flex {
+  justify-content: space-between;
+}
+
+footer .line-footer {
+    padding: 20px;
+}
+
+.border {
+    border-top: 2px solid #ffffff2c;
+}
+
+footer .line-footer p i {
+  color: #00ff08;
+  font-size: 20px;
+}
+
+footer .line-footer p a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 5px;
+}
+
+.btn-social .btn-social-footer {
+    background-color: red;
+}
