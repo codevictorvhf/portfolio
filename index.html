@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="specialties.css" />
     <link rel="stylesheet" href="about.css" />
     <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href="form.css" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -173,6 +174,40 @@
               <div class="overlay">Projeto 3</div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section class="form">
+        <div class="interface">
+          <h2 class="title">FALA <span>COMIGO</span></h2>
+
+          <form action="" method="post">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Nome completo:"
+              required
+            />
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="E-mail"
+              required
+            />
+            <input type="text" name="cel" id="cel" placeholder="Celular" />
+            <textarea
+              name="msg"
+              id="msg"
+              cols="20"
+              rows="8"
+              placeholder="Digite sua mensagem"
+              required
+            ></textarea>
+
+            <div class="btn-enviar"><input type="submit" value="ENVIAR" /></div>
+          </form>
         </div>
       </section>
     </main>

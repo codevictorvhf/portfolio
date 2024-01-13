@@ -1,0 +1,47 @@
+section.form {
+  padding: 80px 4%;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+
+  background-color: #242424;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 20px 15px;
+  border-radius: 10px;
+}
+
+form textarea {
+  resize: none;
+}
+
+form .btn-enviar {
+  margin-top: 20px;
+  text-align: center;
+}
+
+form .btn-enviar input {
+  width: 135px;
+  font-weight: 700;
+  cursor: pointer;
+
+  transition: 0.2s ease-in-out;
+}
+
+form .btn-enviar input:hover {
+  box-shadow: 0px 0px 8px #242400;
+  transform: scale(1.05);
+}
