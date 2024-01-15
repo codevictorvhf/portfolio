@@ -18,6 +18,10 @@
   }
 
   /* header */
+  .btn-open-menu {
+    display: block;
+  }
+  
   .menu-desktop,
   .btn-contact {
     display: none;
