@@ -1,0 +1,90 @@
+@media screen and (max-width: 1020px) {
+  /* general classes*/
+  .flex {
+    flex-direction: column;
+  }
+
+  .top-of-site .flex {
+    flex-direction: column-reverse;
+  }
+
+  h2.title {
+    font-size: 32px;
+    line-height: 30px;
+  }
+
+  .btn-social {
+    text-align: center;
+  }
+
+  /* header */
+  .menu-desktop,
+  .btn-contact {
+    display: none;
+  }
+
+  /* top of site */
+  section.top-of-site {
+    padding: 20px 8%;
+  }
+
+  .top-of-site .img-top-of-site img {
+    width: 100%;
+  }
+
+  .top-of-site h1 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .top-of-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  /* specialties */
+  section.specialties {
+    padding: 40px 8%;
+  }
+
+  /* about */
+  section.about {
+    padding: 80px 8%;
+  }
+
+  .about .txt-about h2 {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+  }
+
+  .img-about img {
+    width: 100%;
+  }
+
+  /* portfolio */
+  section.portfolio {
+    padding: 80px 4%;
+  }
+
+  .img-port {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+
+  .portfolio .flex {
+    gap: 50px;
+  }
+
+  /* footer */
+  footer .flex {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  footer .line-footer {
+    text-align: center;
+  }
+}
