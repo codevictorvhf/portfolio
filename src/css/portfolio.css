@@ -28,15 +28,15 @@ section.portfolio {
 }
 
 .img1 {
-  background-image: url("features/images/imagem.jpg");
+  background-image: url("../images/imagem.jpg");
 }
 
 .img2 {
-  background-image: url("features/images/imagem.jpg");
+  background-image: url("../images/imagem.jpg");
 }
 
 .img3 {
-  background-image: url("features/images/imagem.jpg");
+  background-image: url("../images/imagem.jpg");
 }
 
 .overlay {
